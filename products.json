@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name":" Pastel boda",
+        "price": 230,
+        "image": "imagen/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Pastel boda",
+        "price": 260,
+        "image": "imagen/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Boda de ensueño",
+        "price": 290,
+        "image": "imagen/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Pastel boda primavera",
+        "price": 231,
+        "image": "imagen/4.png"
+    },
+    {
+        "id": 5,
+        "name":" Pastel nupcial ",
+        "price": 340,
+        "image": "imagen/5.png"
+    },
+    {
+        "id": 6,
+        "name":" boda",
+        "price": 70,
+        "image": "imagen/6.png"
+    },
+    {
+        "id": 7,
+        "name":" Sueño de novia",
+        "price": 342,
+        "image": "imagen/7.png"
+    },
+    {
+        "id": 8,
+        "name":"Juntos",
+        "price": 200,
+        "image": "imagen/8.png"
+    },
+    {
+        "id": 9,
+        "name":"Juntos",
+        "price": 200,
+        "image": "imagen/9.png"
+    }
+]

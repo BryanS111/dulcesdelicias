@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Carrito de compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+
+            #contenedor-SECCIÓN-DE-NIÑOS {
+        background-color: pink;
+        padding: 20px;
+        margin: 20px 0;
+         border-radius: 10px;
+            }
+
+        #contenedor-cumpleaños {
+        background-color: lightblue;
+        padding: 20px;
+        margin: 20px 0;
+         border-radius: 10px;
+            }
+
+        #contenedor-colores {
+        background-color: pink;
+        padding: 20px;
+        margin: 10px 0;
+        border-radius: 10px;
+
+    }
+      
+        #contenedor-unicornio {
+        background-color: lightblue;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #141C29;
+            padding-top: 80px;
+        }
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin: 30px 0px;
+        }
+        img {
+            width: 320px;
+            height: 340px;
+            object-fit: cover;
+            border-radius: 20px 20px 0px 0px;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:15%;
+            height: 70px;
+            top: 0;
+            position: fixed;
+            width: 100%;
+        }
+        .scroll{
+            background-color: aliceblue;
+            box-shadow: .1rem .2rem .3rem #333;
+        }
+        .scroll img{
+            filter: invert(15%);
+        }           
+        .scroll h1{
+            color: #141C29;
+        }
+        .carrito{
+            filter: invert(100%);
+            width: 45px;
+            height: auto;
+        }
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px;
+            margin-bottom: 20px;
+        }
+        .contenedor>div{
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+            background-color: #2D4263;
+            border-radius: 20px;
+        }
+        .contenedor>div:hover{
+            background-color: #11294d;
+        }
+
+        .informacion{
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap:15px;
+        }
+        .informacion>p:first-child{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25px;
+            font-weight: 300;
+        }
+        .informacion .precio {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .informacion .precio span{
+            font-size: 17px;
+            font-weight: 300;
+        }
+        .informacion button{
+            background-color: #263143;
+            width: 100px;
+            height: 35px;
+            border-radius: 10px;
+            border: none;
+            font-size: 17px;
+            font-weight: 300;
+            cursor: pointer;
+        }
+        .informacion button:hover{
+            background-color: #2D4263;
+        }
+        .cart {
+            background-color: #2D4263;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .cart h2 {
+            margin-bottom: 20px;
+        }
+        .cart ul {
+            list-style: none;
+            padding: 0;
+        }
+        .cart-total {
+            font-size: 24px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header id="header">
+        <h1>SECCIÓN DE NIÑOS</h1> 
+        
+    </header>
+
+    
+    <section>
+        <h2>cumpleaños</h2>
+        <div id="contenedor-cumpleaños" class="contenedor">
+            <div>
+                <img src="fotos/HAPPY BIRTHDAY.jpg" alt="producto 1">
+                <div class="informacion">
+                    <p>cumpleaños</p>
+                    <p class="precio">$29.99<span>.99</span></p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="fotos/cumple elaborado.jpg" alt="producto 2">
+                <div class="informacion">
+                    <p>CUMPLEAÑOS</p>                   
+                    <p class="precio">$29.9<span>.99</span></p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <section>
+        <h2>pasteles de colores</h2>
+        <div id="contenedor-colores" class="contenedor">
+            <div>
+                <img src="fotos/celeste.jpg" alt="producto 3">
+                <div class="informacion">
+                    <p>arcoiris de colores </p>                   
+                    <p class="precio">$39<span>.99</span></p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="fotos/colores.jpg" alt="producto 4">
+                <div class="informacion">
+                    <p>lluvia de colores </p>                   
+                    <p class="precio">$49<span>.99</span></p>
+                    <button>Comprar</button>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>unicornio y elefante</h2>
+        <div id="contenedor-unicornio" class="contenedor">
+            <div>
+                <img src="fotos/elefante.jpg" alt="producto 5">
+                <div class="informacion">
+                    <p>pastinamania</p>                   
+                    <p class="precio">$59<span>.99</span></p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div>
+                <img src="fotos/unicornio.jpg" alt="producto 6">
+                <div class="informacion">
+                    <p>unicake</p>                   
+                    <p class="precio">$69<span>.99</span></p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cart">
+        <h2>Carrito</h2>
+        <ul id="cart-items">
+            
+        </ul>
+        <div class="cart-total">
+            <h3>Total: $<span id="cart-total">0.00</span></h3>
+        </div>
+    </div>
+
+    <center><a href="../index_B.html" class="boton_inicio">Menú Principal</a></center>
+<br><br>
+
+    <script src="app.js"></script>
+</body>
+</html>
