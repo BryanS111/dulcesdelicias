@@ -1,0 +1,169 @@
+body{
+    background-color: #f5bdc4b7;
+}
+
+.carousel-item img {
+    border-radius: 50px;
+    border: solid 8px #5e8ac0;
+box-shadow: 6px 6px 8px #3b71aa;
+}
+
+.carousel-caption h4 {
+    color: #ffc8c8;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+
+
+
+.btn-secondary:hover {
+    background-color: rgb(0, 109, 18);
+    color: white;
+}
+/*parte del encabezado*/
+
+.encabezado video{
+border-radius: 15px;
+border: solid 8px #699ddd;
+box-shadow: 6px 6px 6px #4373a6;
+}
+
+
+
+/*parte de la tarjeta*/
+.mb-3 {
+background-color: #acbeff;
+height: 310px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 100px;
+box-shadow: 4px 4px 6px 4px #c376be2b;
+animation: zoomIn 6s forwards;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.col-md-4 .img-fluid{
+border-radius: 140px;
+}
+
+.card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.card-text{
+    font-size: 21px;
+    text-shadow: 1px 1px 2px #00000041;
+}
+
+
+/*parte de los botones para los catalogos (imagenes)*/
+
+.contenedor_catalogos {
+    display: flex;
+    justify-content: center;
+    gap: 35px; 
+}
+
+.button-image {
+    width: 250px; 
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 500px;
+}
+
+.button-image:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el selector */
+}
+
+/* parte del footer */
+.slide_auto{
+    width: 100%;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slide_auto ul{
+display: flex;
+padding: 0;
+width: 400%;
+animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slide_auto li{
+width: 100%;
+list-style: none;
+position: relative;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
+
+
+/* parte de la mision y vision*/
+.tarjetas2 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px; 
+margin: 10px;
+animation: bounceLoop 2s infinite;
+}
+
+@keyframes bounceLoop {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.tarjetas2 .card {
+    border: 20px solid #3b71aa;
+    background-color: #ffe2e2;
+}
+
+.tarjetas2 img{
+    border-radius: 0px;
+}
+
+.tarjetas2 h5{
+color: #2f75c1;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
+.tarjetas2 p{
+color: #000000;
+text-align: center;
+    }
